@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background: black;
+    color: white;
+}

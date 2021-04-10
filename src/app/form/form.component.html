@@ -1,0 +1,10 @@
+<div class="form">
+    <h1>To-Do App !</h1>
+    <input type="text" [(ngModel)]="newTodo">
+    <button class="add" (click)="addTodo()">Add</button>
+</div>
+<app-todo-list [todo]="todo"></app-todo-list>
+
+<!-- CAPIRE COME PASSARE L'ARRAY DI DATI AL TODO COMPONENT (
+    
+) -->

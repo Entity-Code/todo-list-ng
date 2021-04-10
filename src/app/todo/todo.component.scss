@@ -1,0 +1,13 @@
+.todo-item{
+    align-items: center;
+    text-align: left;
+    min-width: 200px;
+    border: 1px solid white;
+    padding: 10px;
+    min-width: 210px; 
+    .delete{
+        padding-left: 15px;
+        float: right;
+        cursor: pointer;
+    }
+}
